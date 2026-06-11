@@ -2,22 +2,19 @@
 ### Automated QA Framework for Target Difficulty Tracking in Multi-User Game Environments
 
 ---
-## Can reinforcement learning reduce the cost of repetitive game QA?
+## Can reinforcement learning automate repetitive game QA and reproduce designer-intended difficulty?
 ##### This project presents an automated QA framework that tunes boss difficulty toward designer-defined target clear rates using RL-based player personas.
 
 ## Results at a Glance
 
-🎯 Target Clear Rate : 50%
-
-✅ Observed Clear Rate : 48%
-
-📉 Absolute Error : 2%
-
-Expert Persona : 91%
-
-Intermediate Persona : 74%
-
-Novice Persona : 69%
+| Metric | Result |
+|---|---:|
+| 🎯 Target Clear Rate | 50% |
+| ✅ Observed Clear Rate | 48% |
+| 📉 Absolute Error | 2% |
+| 👤 Expert Persona | 91% |
+| 👤 Intermediate Persona | 74% |
+| 👤 Novice Persona | 69% |
 
 ---
 
@@ -153,7 +150,7 @@ The configuration closest to the intended difficulty was selected and tested aga
 | Observed Clear Rate |   48% |
 | Absolute Error      |    2% |
 
-The proposed framework successfully reproduced the designer-intended difficulty with high accuracy.
+The proposed framework successfully reproduced the designer-intended difficulty with high accuracy. This result suggests that reinforcement learning personas can effectively support automated game balancing and reduce repetitive QA efforts.
 
 ---
 
@@ -165,7 +162,7 @@ The proposed framework successfully reproduced the designer-intended difficulty 
 * C#
 * Automated Simulation Pipeline
 * Unity Console Log-based Evaluation
-
+* TensorBoard
 ---
 
 ## Key Contributions
