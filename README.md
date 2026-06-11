@@ -1,11 +1,9 @@
 # Adaptive Boss Difficulty Tuning via Reinforcement Learning Personas
-
-Automated QA Framework for Target Difficulty Tracking in Multi-User Game Environments
+### Automated QA Framework for Target Difficulty Tracking in Multi-User Game Environments
 
 ---
 ## Can reinforcement learning reduce the cost of repetitive game QA?
-
-* This project presents an automated QA framework that tunes boss difficulty toward designer-defined target clear rates using RL-based player personas.
+##### This project presents an automated QA framework that tunes boss difficulty toward designer-defined target clear rates using RL-based player personas.
 ---
 
 ## TL;DR
