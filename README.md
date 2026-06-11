@@ -3,6 +3,10 @@
 Automated QA Framework for Target Difficulty Tracking in Multi-User Game Environments
 
 ---
+## Can reinforcement learning reduce the cost of repetitive game QA?
+
+This project presents an automated QA framework that tunes boss difficulty toward designer-defined target clear rates using RL-based player personas.
+---
 
 ## TL;DR
 
@@ -108,16 +112,14 @@ Reward was assigned proportionally to the distance between observed and target c
 
 Result:
 
-* Large oscillations around the target difficulty.
+* Large oscillations.
 * Unstable convergence behavior.
 
 ### Gaussian Reward
 
-Higher rewards were concentrated near the target clear rate.
+Higher rewards were concentrated.
 
 Result:
-
-* Improved convergence stability.
 * More accurate target tracking.
 
 ---
